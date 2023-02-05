@@ -1,0 +1,36 @@
+<div *ngIf="loadedWasm" class="main-container">
+  <div class="sidebar">
+    <ul>
+      <button (click)="upload()" mat-raised-button color="primary">Upload Image</button>
+      <input id="file" type="file" (change)="uploadFile($event)">
+      <h4>Channels</h4>
+      <li (click)="alterChannel(0)">Increase Red Channel</li>
+      <li (click)="alterChannel(1)">Increase Green Channel</li>
+      <li (click)="alterChannel(2)">Increase Blue Channel</li>
+      <li (click)="removeChannel(0)">Remove Red Channel</li>
+      <li (click)="removeChannel(1)">Remove Green Channel</li>
+      <li (click)="removeChannel(2)">Remove Blue Channel</li>
+      <li (click)=effectPipeline()>Inc Channel + Threshold</li>
+      <h4>Filter</h4>
+      <li (click)="filter('marine')">Marine</li>
+      <li (click)="filter('serenity')">Serenity</li>
+      <li (click)="filter('seagreen')">Seagreen</li>
+      <li (click)="filter('bluechrome')">Bluechrome</li>
+      <li (click)="filter('oceanic')">Oceanic</li>
+      <li (click)="filter('twenties')">Twenties</li>
+      <li (click)="filter('pastel_pink')">Pastel Pink</li>
+      <h4>Effects</h4>
+      <li (click)="offset(0)">Offset Red</li>
+      <li (click)="offset(1)">Offset Green</li>
+      <li (click)="offset(2)">Offset Blue</li>
+      <h4>Change Image</h4>
+      <li (click)="setImage('assets/img/smallkitty.jpg')">Small Cat</li>
+      <li (click)="setImage('assets/img/daisies.jpg')">Daisies</li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <canvas id="canvas" width="1000" height="750"></canvas>
+  </div>
+</div>
+
+

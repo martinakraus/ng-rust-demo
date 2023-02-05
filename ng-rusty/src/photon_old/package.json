@@ -1,0 +1,22 @@
+{
+  "name": "@silvia-odwyer/photon",
+  "collaborators": [
+    "Silvia O'Dwyer <silviaodwyerdev@gmail.com>"
+  ],
+  "description": "High-performance image processing library for native use and the web",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvia-odwyer/photon"
+  },
+  "files": [
+    "photon_bg.wasm",
+    "photon.js",
+    ""
+  ],
+  "module": "photon.js",
+  "homepage": "https://silvia-odwyer.github.io/photon/",
+  "types": "photon.d.ts",
+  "sideEffects": "false"
+}

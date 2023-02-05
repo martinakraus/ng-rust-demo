@@ -1,0 +1,49 @@
+.main-container {
+  display: flex;
+  background-color: #222;
+}
+
+.sidebar {
+  width: 40vh;
+  background-color: #1f1f1f;
+  padding: 5px;
+  font-size: large;
+  overflow-y: scroll;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-right: 4em;
+  padding-bottom: 5px;
+}
+
+.sidebar li {
+  display: block;
+  color: #696969;
+  cursor: pointer;
+}
+
+h2, h3, h4, h5 {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+canvas {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
