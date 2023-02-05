@@ -1,0 +1,11 @@
+/Users/martinakraus/Research/ng-rusty/src/crate/target/release/deps/base_x-2d1809aa65697206.rmeta: /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/lib.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/alphabet.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/bigint.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/decoder.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/encoder.rs
+
+/Users/martinakraus/Research/ng-rusty/src/crate/target/release/deps/libbase_x-2d1809aa65697206.rlib: /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/lib.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/alphabet.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/bigint.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/decoder.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/encoder.rs
+
+/Users/martinakraus/Research/ng-rusty/src/crate/target/release/deps/base_x-2d1809aa65697206.d: /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/lib.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/alphabet.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/bigint.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/decoder.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/encoder.rs
+
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/lib.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/alphabet.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/bigint.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/decoder.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/base-x-0.2.11/src/encoder.rs:

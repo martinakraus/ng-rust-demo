@@ -1,0 +1,11 @@
+/Users/martinakraus/Research/ng-rusty/src/crate/target/wasm32-unknown-unknown/release/deps/approx-c872b5a208f176bc.rmeta: /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/lib.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/abs_diff_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/relative_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/ulps_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/macros.rs
+
+/Users/martinakraus/Research/ng-rusty/src/crate/target/wasm32-unknown-unknown/release/deps/libapprox-c872b5a208f176bc.rlib: /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/lib.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/abs_diff_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/relative_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/ulps_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/macros.rs
+
+/Users/martinakraus/Research/ng-rusty/src/crate/target/wasm32-unknown-unknown/release/deps/approx-c872b5a208f176bc.d: /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/lib.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/abs_diff_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/relative_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/ulps_eq.rs /Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/macros.rs
+
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/lib.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/abs_diff_eq.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/relative_eq.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/ulps_eq.rs:
+/Users/martinakraus/.cargo/registry/src/github.com-1ecc6299db9ec823/approx-0.5.1/src/macros.rs:
