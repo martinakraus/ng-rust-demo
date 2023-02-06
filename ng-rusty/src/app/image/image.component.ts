@@ -47,8 +47,6 @@ export class ImageComponent implements OnInit {
 
     if (file) {
       reader.readAsDataURL(file);
-    } else {
-      // Error message TODO
     }
   }
 
