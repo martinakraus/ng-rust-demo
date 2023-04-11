@@ -4,7 +4,8 @@
 }
 
 .sidebar {
-  width: 40vh;
+  width: 50vh;
+  max-height: 600px;
   background-color: #1f1f1f;
   padding: 5px;
   font-size: large;
@@ -20,8 +21,12 @@ ul li {
 
 .sidebar li {
   display: block;
-  color: #696969;
+  color: #ffffff;
   cursor: pointer;
+
+  &:hover {
+    color: #673ab7;
+  }
 }
 
 h2, h3, h4, h5 {
@@ -40,10 +45,19 @@ h2, h3, h4, h5 {
 
 canvas {
   width: 100%;
-  max-width: 600px;
+  max-height: 100vh;
   height: auto;
 }
 
 input[type="file"] {
   display: none;
+}
+
+.timeTaken {
+  margin: 10px;
+  min-width: 100px;
+  color: white;
+}
+#canvas {
+  max-width: 400px;
 }

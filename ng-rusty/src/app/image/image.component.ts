@@ -19,6 +19,9 @@ export class ImageComponent implements OnInit {
   isLoaded = false;
   wasm: any;
   displayedImage!: HTMLImageElement;
+  startTime = 0;
+  endTime = 0;
+  timeTakenDisplayed = '';
 
   async ngOnInit() {
     await this.loadWasm();
@@ -70,46 +73,61 @@ export class ImageComponent implements OnInit {
     let { ctx, canvas, image } = this.getImageData();
     let photon = this.wasm;
 
+    this.startTime = performance.now();
     photon.alter_channel(image, channel, 50);
-
+    this.endTime = performance.now();
     photon.putImageData(canvas, ctx, image);
+
+    this.updateBenchmark();
   }
 
   removeChannel(channel: CHANNEL) {
     let { ctx, canvas, image } = this.getImageData();
     let photon = this.wasm;
 
+    this.startTime = performance.now();
     photon.remove_channel(image, channel, 500);
-
+    this.endTime = performance.now();
     photon.putImageData(canvas, ctx, image);
+
+    this.updateBenchmark();
   }
 
   filter(filter: PHOTON_FILTER) {
     let { ctx, canvas, image } = this.getImageData();
     let photon = this.wasm;
 
+    this.startTime = performance.now();
     photon.filter(image, filter);
+    this.endTime = performance.now();
 
     photon.putImageData(canvas, ctx, image);
+    this.updateBenchmark();
   }
 
   offset(channel: CHANNEL) {
     let { ctx, canvas, image } = this.getImageData();
     let photon = this.wasm;
 
+    this.startTime = performance.now();
     photon.offset(image, channel, 50);
+    this.endTime = performance.now();
 
     photon.putImageData(canvas, ctx, image);
+    this.updateBenchmark();
   }
 
   effectPipeline() {
     let { ctx, canvas, image } = this.getImageData();
     let photon = this.wasm;
 
+    this.startTime = performance.now();
     photon.alter_channel(image, 2, 70);
     photon.grayscale(image);
+    this.endTime = performance.now();
 
     photon.putImageData(canvas, ctx, image);
+    this.updateBenchmark();
   }
 
   private getImageData(): { ctx: CanvasRenderingContext2D | null; canvas: HTMLCanvasElement; image: PhotonImage } {
@@ -119,5 +137,10 @@ export class ImageComponent implements OnInit {
     let image = this.wasm.open_image(canvas, ctx);
 
     return {ctx, canvas, image}
+  }
+
+  private updateBenchmark() {
+    let timeTaken = this.endTime - this.startTime;
+    this.timeTakenDisplayed = `Time: ${timeTaken.toFixed(2)}ms`;
   }
 }
