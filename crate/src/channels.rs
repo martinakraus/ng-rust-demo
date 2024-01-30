@@ -43,6 +43,7 @@ use wasm_bindgen::prelude::*;
 /// alter_channel(&mut img, 1_usize, -20_i16);
 /// ```
 /// **Note**: Note the use of a minus symbol when decreasing the channel.
+/// #[wasm_bindgen(js_name = alterChannel)]
 #[wasm_bindgen]
 pub fn alter_channel(img: &mut PhotonImage, channel: usize, amt: i16) {
     if channel > 2 {

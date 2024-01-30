@@ -29,7 +29,7 @@ export class ImageComponent implements OnInit {
 
   async loadWasm() {
     try {
-      this.wasm = await import('../../photon');
+      // ToDo import wasm file
       this.setImage('assets/img/daisies.jpg');
     } finally {
       this.loadedWasm = true;
@@ -74,9 +74,9 @@ export class ImageComponent implements OnInit {
     let photon = this.wasm;
 
     this.startTime = performance.now();
-    photon.alter_channel(image, channel, 200);
+    // ToDo call alterChannel function from wasm
     this.endTime = performance.now();
-    photon.putImageData(canvas,ctx,image);
+    // ToDo call putImageData function from wasm
 
     this.updateBenchmark();
   }
