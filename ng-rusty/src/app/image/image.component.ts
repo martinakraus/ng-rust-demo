@@ -74,9 +74,9 @@ export class ImageComponent implements OnInit {
     let photon = this.wasm;
 
     this.startTime = performance.now();
-    photon.alter_channel(image, channel, 50);
+    photon.alter_channel(image, channel, 200);
     this.endTime = performance.now();
-    photon.putImageData(canvas, ctx, image);
+    photon.putImageData(canvas,ctx,image);
 
     this.updateBenchmark();
   }
@@ -98,10 +98,14 @@ export class ImageComponent implements OnInit {
     let photon = this.wasm;
 
     this.startTime = performance.now();
-    photon.filter(image, filter);
-    this.endTime = performance.now();
 
+    photon.filter(image, filter);
+
+    // ToDo call filter function on wasm
+    this.endTime = performance.now();
     photon.putImageData(canvas, ctx, image);
+
+    // ToDo draw new image on canvas
     this.updateBenchmark();
   }
 
